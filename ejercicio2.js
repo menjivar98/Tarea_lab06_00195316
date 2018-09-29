@@ -2,9 +2,7 @@
 
 function convertir (unidad,utype, conver,tipo){
    
-   
-   
-    if(tipo == 'L' || tipo == 'l'){
+   if(tipo == 'L' || tipo == 'l'){
         if((utype == "M" && conver == 'cm' ) || ((utype == 'm' && conver == 'cm' ))){
             return unidad * 100 + ' Cm';
 

@@ -17,33 +17,7 @@ var producto = class {
     }
 }
 
-var tienda = class {
-    agregar(Object){
-        bodega.push(Object);
-    }
-}
-
 var bodega = [];
-
-
-
-
-
-
-function mostrarPropiedades(objeto, nombreObjeto) {
-    var resultado = "";
-    for (var i in objeto) {
-      if (objeto.hasOwnProperty(i)) {
-          resultado += nombreObjeto + "." + i + " = " + objeto[i] + "\n";
-      }
-    }
-    return resultado;
-  }
-
-
-
-
-
 
 do{
     var aux =+ 1;
